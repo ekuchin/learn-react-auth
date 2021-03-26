@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  border: none;
+  border-radius: 3px;
+  margin: auto 0;
+  padding: .5rem .75rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  font-size: .9rem;
+  letter-spacing: .5px;
+  transition: all .1s ease-in;
+}
+
+.btn-primary {
+  background: #6CB2EB;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #3490DC;
+}
+
+.btn-cancel {
+  background: #EF5753;
+  color: #fff;
+}
+
+.btn-cancel:hover {
+  background: #E3342F;
+  color: #fff;
+}
